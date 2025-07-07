@@ -5,8 +5,8 @@ const MoviesController = {
  try {
     const {movieName, releaseDate, genre, watched} = req.body;
     const newMovie = new MovieModel({
-        movieName, 
-        releaseDate, 
+        movieName,
+        releaseDate,
         genre, 
         watched,
     });
